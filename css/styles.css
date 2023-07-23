@@ -371,8 +371,8 @@ header .navbar__menu li .navbar__menu__item--first {
   text-align: center;
   margin-bottom: 40px;
 }
-.we-are__img img {
-  width: 100%;
+.we-are img.mobile-version {
+  display: none; /* oculto en pantallas grandes */
 }
 
 .services {
@@ -913,11 +913,6 @@ footer .footer__container i {
   main .we-are__text h3 {
     margin-top: -20px;
   }
-  main .we-are__img {
-    width: 80%;
-    justify-self: center;
-    margin-bottom: 50px;
-  }
   main .team {
     grid-template-columns: 1fr;
   }
@@ -1016,6 +1011,17 @@ footer .footer__container i {
     height: 80px;
     padding: 10px;
   }
+  main .we-are .mobile-version {
+    width: 100%;
+    justify-self: center;
+    margin-bottom: 50px;
+    display: block;
+  }
+  /*
+      &__img {
+          justify-self: center;
+          margin-bottom: 50px;
+      }*/
   main .quote-team__container {
     margin-top: 40px;
     margin-bottom: 60px;
