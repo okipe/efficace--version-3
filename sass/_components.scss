@@ -415,11 +415,12 @@ header {
 
             &__text {
                 @extend .box__item__image--small;
+                width: 55%;
             }
 
             p {
                 @extend .box__item__text--small;
-                font-size: 22px; 
+                font-size: 18px; 
             }
         }
     }
@@ -925,7 +926,7 @@ footer {
         top: 0;
         right: 0;
         bottom: 0;
-        background-color: $primary-2-color;
+        background-color: #19C223;
         padding: 2rem;
         box-shadow: 0 0 0 1000vmax rgba($color: #000000, $alpha: 0.4);
         justify-content: flex-start;
@@ -1280,6 +1281,10 @@ footer {
 
     main .team .team__container {
         margin-bottom: 40px;
+
+        &__item__text {
+            width: 70%
+        }
 
         &__item p {
             font-size: 18px;
