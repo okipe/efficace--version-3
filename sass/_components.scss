@@ -120,6 +120,7 @@
     overflow: auto;
     width: 70%;
     backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
 }
 
 .box__item__text--small {
@@ -145,6 +146,7 @@
     overflow: auto;
     width: 50%;
     backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
 }
 
 .box__item__text--big {
@@ -257,6 +259,7 @@ header {
         text-align: center;
         background-color: rgba(whitesmoke, 0.7);
         backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);
 
         &--big {
             font-family: $title-font;

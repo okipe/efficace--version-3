@@ -227,6 +227,7 @@ footer .footer__container {
   overflow: auto;
   width: 70%;
   backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
 }
 
 .box__item__text--small, .team__container__item p, .services__container__item p {
@@ -252,6 +253,7 @@ footer .footer__container {
   overflow: auto;
   width: 50%;
   backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
 }
 
 .box__item__text--big, .contact p, .quote-team__container p {
@@ -342,6 +344,7 @@ header .navbar__menu li .navbar__menu__item--first {
   text-align: center;
   background-color: rgba(245, 245, 245, 0.7);
   backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
 }
 .hero__text--big {
   font-family: "League Spartan", sans-serif;
