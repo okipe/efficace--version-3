@@ -194,7 +194,7 @@ footer .footer__container {
   text-transform: uppercase;
 }
 
-.section__paragraph--side, .trends p, .podcasts p, .cv-templates p, .books p, .team__text p, .services__text p, .we-are__text p {
+.section__paragraph--side, .trends p, .podcasts p, .cv-templates p, .books p, .team__text p, .services__text p, .we-are__text__list ul, .we-are__text p {
   font-family: "Hanken Grotesk", sans-serif;
   font-size: 24px;
   margin-top: 16px;
@@ -374,6 +374,13 @@ header .navbar__menu li .navbar__menu__item--first {
 }
 .we-are__text p {
   text-align: center;
+  margin-bottom: 40px;
+}
+.we-are__text__list {
+  margin: auto;
+  width: 200px;
+}
+.we-are__text__list ul {
   margin-bottom: 40px;
 }
 .we-are img.mobile-version {
@@ -715,7 +722,7 @@ footer .footer__container i {
     font-size: 40px;
   }
 
-  .section__paragraph--side, .we-are__text p, .services__text p, .team__text p, .books p, .cv-templates p, .podcasts p, .trends p {
+  .section__paragraph--side, .we-are__text p, .we-are__text__list ul, .services__text p, .team__text p, .books p, .cv-templates p, .podcasts p, .trends p {
     font-family: "Hanken Grotesk", sans-serif;
     font-size: 20px;
     margin-top: 16px;
@@ -857,11 +864,13 @@ header .contact {
     display: block;
     /* visible en pantallas grandes */
   }
-  main .hero__text--big {
-    line-height: 120%;
+  main .hero__text {
+    /*                &--small {
+                        line-height: 150%;
+                    }*/
   }
-  main .hero__text--small {
-    line-height: 150%;
+  main .hero__text--big {
+    line-height: 103%;
   }
 
   main .services__container {

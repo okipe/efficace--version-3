@@ -296,6 +296,16 @@ header {
             text-align: center;
             margin-bottom: 40px;
         }
+
+        &__list {
+            margin: auto;
+            width: 200px;
+
+            ul {
+                @extend .section__paragraph--side;
+                margin-bottom: 40px;
+        }
+        }
     }
 
     img.mobile-version {
@@ -975,12 +985,12 @@ footer {
 
         &__text {
                 &--big {
-                    line-height: 120%;
+                    line-height: 103%;
                 }
-                &--small {
+/*                &--small {
                     line-height: 150%;
-                }
-        }
+                }*/
+        } 
     }
 
     main .services {
