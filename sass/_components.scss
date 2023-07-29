@@ -313,9 +313,14 @@ header {
         }
     }
 
-    img.mobile-version {
-            display: none; /* oculto en pantallas grandes */
+    &__text.mobile-version {
+        display: none;
     }
+
+    // Si se pone una imagen solo movil, activar estas líneas
+    // img.mobile-version {
+    //         display: none; /* oculto en pantallas grandes */
+    // }
 }
 
 .services {
@@ -1276,11 +1281,25 @@ footer {
         padding: 10px;
     }
 
-    main .we-are .mobile-version {
-        width: 100%;
-        justify-self: center;
-        margin-bottom: 50px;
-        display: block;
+    // main .we-are {
+    //     width: 100%;
+    //     justify-self: center;
+    //     margin-bottom: 50px;
+    //     display: block;
+    // }
+
+    // main .we-are.mobile-version {
+    //     display: none;
+    // }
+
+    main .we-are {
+        .desktop-version {
+            display: none;
+        }
+
+        .mobile-version {
+            display: block;
+        }
     }
 
     /*

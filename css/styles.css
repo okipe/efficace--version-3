@@ -384,8 +384,8 @@ header .navbar__menu li .navbar__menu__item--first {
   text-align: left;
   margin-bottom: 20px;
 }
-.we-are img.mobile-version {
-  display: none; /* oculto en pantallas grandes */
+.we-are__text.mobile-version {
+  display: none;
 }
 
 .services {
@@ -1029,10 +1029,10 @@ footer .footer__container i {
     height: 80px;
     padding: 10px;
   }
+  main .we-are .desktop-version {
+    display: none;
+  }
   main .we-are .mobile-version {
-    width: 100%;
-    justify-self: center;
-    margin-bottom: 50px;
     display: block;
   }
   /*
